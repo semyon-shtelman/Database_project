@@ -95,7 +95,7 @@ def main() -> None:
     DB_CONFIG = {
         "dbname": f"{os.getenv("DATABASE_NAME")}",
         "user": f"{os.getenv("DATABASE_USER")}",
-        "password": f"{os.getenv("DATABASE_PASSWORD")}",  # Замените на ваш пароль
+        "password": f"{os.getenv("DATABASE_PASSWORD")}",
         "host": f"{os.getenv("DATABASE_HOST")}",
         "port": f"{os.getenv("DATABASE_PORT")}",
     }
